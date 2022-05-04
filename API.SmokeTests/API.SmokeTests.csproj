@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\CreateUsers - Copy.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+    <PackageReference Include="SpecFlow" Version="3.9.69" />
+    <PackageReference Include="SpecFlow.MsTest" Version="3.9.69" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.69" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Automation\API.Automation.csproj" />
+    <ProjectReference Include="..\CustomTracer.SpecflowPlugin\CustomTracer.SpecflowPlugin.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Features\e2e.feature.cs">
+      <DependentUpon>e2e.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\e2e.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\App.config
+D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\API.Automation.dll.config
+D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\API.Automation.deps.json
+D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\API.Automation.dll
+D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\API.Automation.pdb
+D:\Manoj\API Testing Training\API.Automation\API.Automation\obj\Debug\netcoreapp3.1\API.Automation.AssemblyInfoInputs.cache
+D:\Manoj\API Testing Training\API.Automation\API.Automation\obj\Debug\netcoreapp3.1\API.Automation.AssemblyInfo.cs
+D:\Manoj\API Testing Training\API.Automation\API.Automation\obj\Debug\netcoreapp3.1\API.Automation.csproj.CoreCompileInputs.cache
+D:\Manoj\API Testing Training\API.Automation\API.Automation\obj\Debug\netcoreapp3.1\API.Automation.dll
+D:\Manoj\API Testing Training\API.Automation\API.Automation\obj\Debug\netcoreapp3.1\API.Automation.pdb
+D:\Manoj\API Testing Training\API.Automation\API.Automation\obj\Debug\netcoreapp3.1\API.Automation.csprojAssemblyReference.cache
