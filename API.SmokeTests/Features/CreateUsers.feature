@@ -1,5 +1,6 @@
 ﻿Feature: Create User
 
+@smoke
 Scenario: Add a user
 	Given I input name "Mike"
 	And I input role "QA"

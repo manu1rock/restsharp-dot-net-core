@@ -95,6 +95,7 @@ D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\SpecFlow.Internal.Json.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
@@ -166,6 +167,11 @@ D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\API.Automation.dll
 D:\Manoj\API Testing Training\API.Automation\API.SmokeTests\bin\Debug\netcoreapp3.1\CustomTracer.SpecflowPlugin.dll

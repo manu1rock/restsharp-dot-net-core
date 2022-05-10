@@ -15,8 +15,7 @@ namespace API.Automation
     public class APIClient : IAPIClient, IDisposable
     {
         readonly RestClient _client;
-        readonly string BASE_URL = "https://reqres.in"; 
-        readonly string a = ConfigurationManager.AppSettings["BASE_URL"].;
+        readonly string BASE_URL = "https://reqres.in";
         
         public APIClient(string apiKey = "", string apiSecret = "" )
         {
