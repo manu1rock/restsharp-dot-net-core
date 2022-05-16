@@ -15,14 +15,23 @@ namespace API.Automation
     public class APIClient : IAPIClient, IDisposable
     {
         readonly RestClient _client;
-        readonly string BASE_URL = "https://reqres.in";
+        //readonly string BASE_URL = "https://reqres.in";
         
-        public APIClient(string apiKey = "", string apiSecret = "" )
+        public APIClient(string baseUrl, string clientId = "", string clientSecret = "")
         {
-            var options = new RestClientOptions(BASE_URL);
+            var options = new RestClientOptions(baseUrl);
             _client = new RestClient(options)
             {
-                Authenticator = new APIAuthenticator()
+                Authenticator = new APIAuthenticator(baseUrl, clientId, clientSecret)
+            };
+        }
+
+        public APIClient(string baseUrl, string token)
+        {
+            var options = new RestClientOptions(baseUrl);
+            _client = new RestClient(options)
+            {
+                Authenticator = new APIAuthenticator(token)
             };
         }
 

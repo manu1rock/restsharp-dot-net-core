@@ -2,8 +2,11 @@
 using API.Automation.Models.Request;
 using API.Automation.Models.Response;
 using API.Automation.Utilities;
+using API.SmokeTests.Hook;
+using AventStack.ExtentReports;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RestSharp;
+using Serilog;
 using System;
 using System.Data;
 using System.Net;
@@ -24,7 +27,7 @@ namespace API.SmokeTests.Features
         public E2ETestSteps(CreateUserReq createUser, ScenarioContext scenarioContext)
         {
             this.createUser = createUser;
-            this.api = new APIClient();
+            this.api = new APIClient(Hooks.config.BaseUrl, Hooks.config.Token);
             this.scenarioContext = scenarioContext;
         }
 
@@ -38,6 +41,7 @@ namespace API.SmokeTests.Features
             statusCode = response.get_StatusCode();
             var code = (int)statusCode;
             Assert.AreEqual(201, code);
+            Log.Information("Status code {0} received", code);
             var content = HandleContent.GetContent<CreateUserRes>(response);
             scenarioContext.Add("UserId", content.id);
         }

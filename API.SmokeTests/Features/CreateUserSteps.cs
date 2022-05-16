@@ -2,6 +2,7 @@
 using API.Automation.Models.Request;
 using API.Automation.Models.Response;
 using API.Automation.Utilities;
+using API.SmokeTests.Hook;
 using AventStack.ExtentReports;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RestSharp;
@@ -20,6 +21,7 @@ namespace API.SmokeTests.Features
         private RestResponse response;
         private HttpStatusCode statusCode;
         private ISpecFlowOutputHelper _specFlowOutputHelper;
+        private Hooks hooks;
         public CreateUserSteps(CreateUserReq createUser, ISpecFlowOutputHelper specFlowOutputHelper)
         {
             this.createUser = createUser;
@@ -39,10 +41,11 @@ namespace API.SmokeTests.Features
             createUser.job = role;
         }
         
+        [DeploymentItem("TestData\\user.json")]
         [When(@"I send create user request")]
         public async Task WhenISendCreateUserRequest()
         {
-            var api = new APIClient();
+            var api = new APIClient(Hooks.config.BaseUrl, Hooks.config.Token);
             response = await api.CreateUser<CreateUserReq>(createUser);
             statusCode = response.get_StatusCode();
             var code = (int)statusCode;

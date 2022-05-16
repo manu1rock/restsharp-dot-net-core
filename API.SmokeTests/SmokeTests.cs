@@ -3,6 +3,7 @@ using API.Automation.Models;
 using API.Automation.Models.Request;
 using API.Automation.Models.Response;
 using API.Automation.Utilities;
+using API.SmokeTests.Hook;
 using AventStack.ExtentReports;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Net;
@@ -72,7 +73,7 @@ namespace API.SmokeTests
         [TestMethod]
         public async Task get_list_of_users()
         {
-            var api = new APIClient();
+            var api = new APIClient(Hooks.config.Token);
             var response = await api.GetUser(2);
             statusCode = response.get_StatusCode();
             var code = (int)statusCode;
@@ -90,7 +91,7 @@ namespace API.SmokeTests
                 name = "Mike",
                 job = "Dev"
             };
-            var api = new APIClient();
+            var api = new APIClient(Hooks.config.Token);
             var response = await api.CreateUser<CreateUserReq>(payload);
             statusCode = response.get_StatusCode();
             var code = (int)statusCode;

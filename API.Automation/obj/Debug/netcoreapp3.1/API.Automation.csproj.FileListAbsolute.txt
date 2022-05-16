@@ -1,6 +1,4 @@
 D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
-D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\App.config
-D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\API.Automation.dll.config
 D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\API.Automation.deps.json
 D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\API.Automation.dll
 D:\Manoj\API Testing Training\API.Automation\API.Automation\bin\Debug\netcoreapp3.1\API.Automation.pdb

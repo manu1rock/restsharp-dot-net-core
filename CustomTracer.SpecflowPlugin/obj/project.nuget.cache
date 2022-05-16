@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4WYu2WOVaqoMAJmSDH2qmS3VqDMgQLsxTUCpl43bwvumtVvj0MNoQUqITuiWXVL3QX1XO0ZOFM6zU1/mvLqXOg==",
+  "dgSpecHash": "teqw8acYcz5ZhKyQN4TFPtNB+MflxzB4DUE79OEoMM1uQ3lMrH/JyoheLEZqJBsh6ah2y3L9qWqK+yUQyxr2Ig==",
   "success": true,
   "projectFilePath": "D:\\Manoj\\API Testing Training\\API.Automation\\CustomTracer.SpecflowPlugin\\CustomTracer.SpecflowPlugin.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,10 @@
     "C:\\Users\\yadavm\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
+    "C:\\Users\\yadavm\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\yadavm\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\microsoft.extensions.dependencymodel\\1.0.3\\microsoft.extensions.dependencymodel.1.0.3.nupkg.sha512",
+    "C:\\Users\\yadavm\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
@@ -58,6 +61,7 @@
     "C:\\Users\\yadavm\\.nuget\\packages\\system.reflection.typeextensions\\4.1.0\\system.reflection.typeextensions.4.1.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\yadavm\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\yadavm\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",

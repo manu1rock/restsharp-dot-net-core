@@ -21,9 +21,9 @@ namespace API.Automation.Authenticator
             _clientSecret = clientSecret;
         }
 
-        public APIAuthenticator() : base("")
+        public APIAuthenticator(string token) : base("")
         {
-            Token = "Bearer ebywews1234eds"; //ConfigurationManager.AppSettings["TOKEN"];
+            Token = token; //ConfigurationManager.AppSettings["TOKEN"];
         }
 
         protected override async ValueTask<Parameter> GetAuthenticationParameter(string accessToken)
